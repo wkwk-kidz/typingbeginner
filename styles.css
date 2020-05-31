@@ -1,0 +1,100 @@
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.container{
+  width: 600px;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  text-align: center;
+  background: rgb(129, 205, 255);
+  box-shadow: 0 5px 0 rgb(72, 132, 189);
+  color: rgb(66, 66, 66);
+}
+
+.word{
+  margin: 0 auto;
+  border-radius: 10px;
+  width:400px;
+  text-align: center;
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 0 rgb(92, 92, 92)   ;
+}
+
+#target{
+  margin: 0;
+  color: #000;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.hand{
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  margin: 0;
+  margin-top: 20px;
+  align-items: flex-end;
+}
+
+#leftpinkie{
+  height: 30px;
+}
+#leftring{
+  height: 50px;
+}
+#leftmiddle{
+  height: 50px;
+}
+#leftindex{
+  height: 50px;
+}
+
+#leftthumb{
+  height: 15px;
+  margin-right: 50px;
+}
+
+#rightthumb{
+  height: 15px;
+}
+
+#rightpinkie{
+  height: 30px;
+}
+#rightring{
+  height: 50px;
+}
+#rightmiddle{
+  height: 50px;
+}
+#rightindex{
+  height: 50px;
+}
+
+.info{
+  color: #000;
+  font-size: 20px;
+}
+
+.inactive{
+  background: red;
+  width: 15px;
+  border-radius: 7px 7px 0 0;
+  margin-left: 5px;
+}
+
+.nonactive{
+  background: rgb(253, 197, 124);
+  width: 15px;
+  border-radius: 7px 7px 0 0;
+  margin-left: 5px;
+}
